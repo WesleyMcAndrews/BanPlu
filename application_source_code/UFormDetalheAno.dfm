@@ -1,0 +1,293 @@
+object FormDetalheAno: TFormDetalheAno
+  Left = 229
+  Top = 150
+  BorderStyle = bsDialog
+  Caption = 'Detalhe da Esta'#231#227'o X ano: 1974'
+  ClientHeight = 305
+  ClientWidth = 732
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 732
+    Height = 41
+    Align = alTop
+    TabOrder = 0
+    object DBNavigator1: TDBNavigator
+      Left = 9
+      Top = 8
+      Width = 108
+      Height = 25
+      DataSource = DM.AnoSrc
+      VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+      TabOrder = 0
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 41
+    Width = 732
+    Height = 264
+    Align = alClient
+    DataSource = DM.AnoSrc
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'MS Sans Serif'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Alignment = taCenter
+        Color = clMoneyGreen
+        Expanded = False
+        FieldName = 'NomeMes'
+        Title.Alignment = taCenter
+        Title.Caption = 'M'#234's'
+        Width = 28
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '01'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '02'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '03'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '04'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '05'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '06'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '07'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '08'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '09'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '10'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '11'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '12'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '13'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '14'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '15'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '16'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '17'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '18'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '19'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '20'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '21'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '22'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '23'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '24'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '25'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '26'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '27'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '28'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '29'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '30'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = '31'
+        Title.Alignment = taCenter
+        Width = 30
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Total'
+        Title.Alignment = taCenter
+        Width = 46
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'M'#233'dia'
+        Title.Alignment = taCenter
+        Width = 45
+        Visible = True
+      end>
+  end
+end

@@ -1,0 +1,26 @@
+unit UShowProgressDlg;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  ComCtrls;
+
+type
+  TShowProgressDlg = class(TForm)
+    Animate1: TAnimate;
+    ProgressBar1: TProgressBar;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ShowProgressDlg: TShowProgressDlg;
+
+implementation
+
+{$R *.DFM}
+
+end.

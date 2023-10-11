@@ -1,0 +1,3 @@
+Erro no arquivo: SERMOA.PLU, linha: 576
+Erro no arquivo: TAUMAT.PLU, linha: 501
+Erro no arquivo: VALTER.PLU, linha: 501
